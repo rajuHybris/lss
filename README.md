@@ -1,2 +1,2 @@
 # lss
-Linguistic Support Services
+Linguistic Support Services.
