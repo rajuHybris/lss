@@ -1,1 +1,1 @@
-Lss-Architecture
+Lss-Architectures
