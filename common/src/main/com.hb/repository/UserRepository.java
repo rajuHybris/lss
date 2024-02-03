@@ -1,9 +1,9 @@
-package demo.repository;
+package com.hb.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import demo.entity.UserEntity;
+import com.hb.entity.UserEntity;
 
 public interface UserRepository extends JpaRepository<UserEntity, Long> {
 

@@ -1,4 +1,4 @@
-package demo.dto;
+package com.hb.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +14,5 @@ public class Message {
     private String role;
     private String content;
 
-
-    // constructor, getters and setters
 }
 

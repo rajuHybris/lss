@@ -1,6 +1,5 @@
-package demo.dto;
+package com.hb.dto;
 
-import io.swagger.v3.core.util.AnnotationsUtils;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,8 +15,6 @@ public class ChatResponse {
 
     private List<Choice> choices;
 
-    // constructors, getters and setters
-
     @Getter
     @Setter
     @NoArgsConstructor
@@ -28,7 +25,6 @@ public class ChatResponse {
         private Message message;
 
 
-        // constructors, getters and setters
     }
 }
 

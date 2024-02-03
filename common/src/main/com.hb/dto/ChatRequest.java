@@ -1,4 +1,4 @@
-package demo.dto;
+package com.hb.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,7 +25,5 @@ public class ChatRequest {
         this.messages = new ArrayList<>();
         this.messages.add(new Message("user", prompt));
     }
-
-    // getters and setters
 }
 
